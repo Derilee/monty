@@ -52,12 +52,12 @@ int _strchr(char *str, char chr)
  */
 char *_strtokenize(char *s, char *d)
 {
-	static char *ultimo;
+	static char *new;
 	int index = 0, line = 0;
 
 	if (!s)
 		s = new;
-	while (s[i] != '\0')
+	while (s[index] != '\0')
 	{
 		if (_strchr(d, s[index]) == 0 && s[index + 1] == '\0')
 		{
