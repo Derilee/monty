@@ -74,7 +74,6 @@ stack_t *_doublynode(stack_t **head, const int n)
 /**
  * free_list - frees the doubly linked list
  * @head: head of the list
- * Return: nothing
  */
 void free_list(stack_t *head)
 {

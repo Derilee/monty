@@ -49,7 +49,6 @@ void _pstr(stack_t **doubly, unsigned int cline)
 		printf("%c", str->n);
 		str = str->next;
 	}
-
 	printf("\n");
 }
 /**

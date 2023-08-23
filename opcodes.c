@@ -37,7 +37,6 @@ void _push(stack_t **doubly, unsigned int cline)
 
 /**
  * _pall - prints all values on the stack
- *
  * @doubly: head of the linked list
  * @cline: line numbers
  */

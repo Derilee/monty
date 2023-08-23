@@ -78,7 +78,7 @@ void *_calloc(unsigned int nmemb, unsigned int size);
 
 /**
  * struct global_s - global structure to use in the function
- * @lifo: is stack or queue
+ * @lifo: stack or queue
  * @cline: current line
  * @arg: second parameter inside the current line
  * @head: doubly linked list

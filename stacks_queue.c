@@ -1,7 +1,8 @@
 #include "monty.h"
 /**
- * _queue - sets format of data to queue(FIFI/LILO)
- * @doubly: head of linked list
+ * _queue - function that sets format of data
+ *          to queue(FIFI/LILO)
+ * @doubly: head of the linked list
  * @cline: line number
  */
 void _queue(stack_t **doubly, unsigned int cline)
@@ -13,7 +14,8 @@ void _queue(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _stack - sets format of data to stack (LIFO/FILO)
+ * _stack - function that sets format of data
+ *          to stack (LIFO/FILO)
  * @doubly: linked list head
  * @cline: line number
  */

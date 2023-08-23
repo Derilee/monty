@@ -68,7 +68,6 @@ void _sub(stack_t **head, unsigned int cline)
 /**
  *_div -Divides 2nd value from the top of stack_t linkedlist by the top value.
  * @doubly: head of the linked list
- * Return: no return
  */
 
 void _div(stack_t **doubly, unsigned int cline)

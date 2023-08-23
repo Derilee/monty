@@ -23,7 +23,7 @@ int _strcmp(char *s1, char *s2)
  * _strchr - function to search if a char is inside a string
  * @str: string to be reviewed
  * @chr: char to find from the string
- * Return: 1 if successful, 0 if not
+ * Return: 1 if successful, 0 if not successful
  */
 int _strchr(char *str, char chr)
 {
@@ -48,7 +48,7 @@ int _strchr(char *str, char chr)
  *                depending of the delimiters
  * @s: string to cut in parts
  * @d: delimiters
- * Return: string if successful or null if failed
+ * Return: string if successful, null if failed
  */
 char *_strtokenize(char *s, char *d)
 {

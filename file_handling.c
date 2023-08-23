@@ -26,7 +26,7 @@ void start_varfile(FILE *fd)
 
 /**
  * check_file - function that checks if the file exists
- *               and if the file can be opened
+ *              and if the file can be opened
  * @argc: argument count
  * @argv: argument vector
  * Return: file descriptor

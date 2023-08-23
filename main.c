@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * main - Entry point
+ * main - Entry point of the program
  * @argc: argument count
  * @argv: argument vector
  * Return: 0, if  successful
