@@ -70,6 +70,6 @@ The following operations are supported by the interpreter:
 ### 11. pchar
 - Implement the pchar opcode. (100% done)
 
-### 12. pstr (Advanced)
+### 12. pstr
 - Implement the pstr opcode. (100% done)
 
